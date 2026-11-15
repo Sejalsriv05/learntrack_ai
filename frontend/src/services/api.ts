@@ -36,7 +36,7 @@ export const api = {
     return {
       id: role === 'faculty' ? 1 : 2,
       email,
-      full_name: role === 'faculty' ? 'Prof. Sarah Jenkins' : 'Aarav Mehta',
+      full_name: role === 'faculty' ? 'Prof. Sarah Jenkins' : 'Sejal Srivastava',
       role
     };
   },
@@ -54,7 +54,7 @@ export const api = {
     // Return high-fidelity fallback matching the prototype
     const dwell = [40, 52, 36, 30, 58, 46, 50, 66, 80, 92, 104, 150, 162, 158, 170, 144, 138, 132, 70, 56, 32, 26, 20, 24, 16];
     const people = [
-      ["Aarav Mehta", 100, 52, 4, "High"],
+      ["Sejal Srivastava", 100, 52, 4, "High"],
       ["Diya Sharma", 96, 47, 6, "High"],
       ["Kabir Nair", 84, 41, 3, "High"],
       ["Ishita Rao", 72, 36, 2, "Moderate"],

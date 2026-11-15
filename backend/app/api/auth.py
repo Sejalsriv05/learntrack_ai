@@ -67,7 +67,7 @@ async def login(req: LoginRequest, db: AsyncSession = Depends(get_db)):
         # Create a default user if none found
         user = User(
             email=req.email if req.email else f"{desired_role}@college.edu",
-            full_name="Prof. Sarah Jenkins" if desired_role == "faculty" else "Aarav Mehta",
+            full_name="Prof. Sarah Jenkins" if desired_role == "faculty" else "Sejal Srivastava",
             role=desired_role,
             hashed_password="hashed_demo_password"
         )

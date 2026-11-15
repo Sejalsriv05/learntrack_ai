@@ -125,7 +125,7 @@ async def seed_data():
         session.add(faculty)
 
         student_specs = [
-            ("Aarav Mehta", "aarav@college.edu", 100, 52, 4),
+            ("Sejal Srivastava", "sejalsriv2005@gmail.com", 100, 52, 4),
             ("Diya Sharma", "diya@college.edu", 96, 47, 6),
             ("Kabir Nair", "kabir@college.edu", 84, 41, 3),
             ("Ishita Rao", "ishita@college.edu", 72, 36, 2),

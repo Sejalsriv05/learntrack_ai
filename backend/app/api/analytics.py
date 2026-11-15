@@ -92,7 +92,7 @@ async def get_unit_analytics(unit_id: int, db: AsyncSession = Depends(get_db)):
 
     # Pre-configured student distribution matching the prototype with rich ML profiles
     roster_seed = [
-        ("Aarav Mehta", 100, 52, 4),
+        ("Sejal Srivastava", 100, 52, 4),
         ("Diya Sharma", 96, 47, 6),
         ("Kabir Nair", 84, 41, 3),
         ("Ishita Rao", 72, 36, 2),

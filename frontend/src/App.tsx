@@ -60,8 +60,8 @@ export const App: React.FC = () => {
     const updatedUser: User = {
       ...user,
       role: newRole,
-      full_name: newRole === 'faculty' ? 'Prof. Sarah Jenkins' : 'Aarav Mehta',
-      email: newRole === 'faculty' ? 'name@college.edu' : 'aarav@college.edu'
+      full_name: newRole === 'faculty' ? 'Prof. Sarah Jenkins' : 'Sejal Srivastava',
+      email: newRole === 'faculty' ? 'name@college.edu' : 'sejalsriv2005@gmail.com'
     };
     setUser(updatedUser);
     setView(newRole);
